@@ -1,4 +1,4 @@
-baseURL = "https://maxxharano.github.io/maxharano.github.io/"
+baseURL = "https://maxxharano.github.io/BlogMax/"
 title = "Max Hara's Blog"
 languageCode = "en"
 DefaultContentLanguage = "en" # Change this to change the site's language
