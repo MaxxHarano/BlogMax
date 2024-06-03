@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en"><head><script src="/BlogMax/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=BlogMax/livereload" data-no-instant defer></script>
+    <title>Max Hara&#39;s Blog</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="theme-color" content="#000084" />
+    <link rel="icon" href="http://localhost:1313/BlogMax//favicon.ico">
+    <link rel="canonical" href="http://localhost:1313/BlogMax/">
+    
+    
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"></button>
+            <a class="brand" href="http://localhost:1313/BlogMax/">Max Hara&#39;s Blog</a>
+            <div class="nav-collapse collapse">
+                <ul class="nav">
+                    
+                    
+                        
+                            <li>
+                                <a href="/BlogMax/about/">
+                                    
+                                    <span>About</span>
+                                </a>
+                            </li>
+                        
+                    
+                        
+                            <li>
+                                <a href="/BlogMax/post/">
+                                    
+                                    <span>All posts</span>
+                                </a>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav><div id="content" class="container">
+
+<div class="row-fluid navmargin">
+    <div class="page-header">
+        <h1>Interview Log1 - Sat, May 11, 2024</h1>
+    </div>
+    <p class="lead"></p>
+    <h1 id="interviews">Interviews</h1>
+<h3 id="with-max">with Max</h3>
+<hr>
+<p>I&rsquo;ve been through a lot for the last few weeks.
+More precisely, there has been a bunch of interviews in a row.
+Here&rsquo;s a list for details:</p>
+<ol>
+<li>Apr. 18 w/ ByteDance</li>
+<li>Apr. 29 w/</li>
+<li>May 6 w/ DingTalk</li>
+<li>May 7 w/ HyperLink</li>
+<li>May 9 w/ HelloBike</li>
+<li>May 10 w/ Tencent</li>
+</ol>
+<p>If you&rsquo;d like to know how I feel about the speific interviewers :</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>The thing is that, it took quite a while for some of these interviewers to respond or move on to the next question.
+<!-- raw HTML omitted -->
+I&rsquo;m assuming they&rsquo;re just looking for questions on the Internet or somewhere else.
+<!-- raw HTML omitted --></p>
+<p>In the following section I&rsquo;ll be documenting the exact questions I&rsquo;ve <em>personally</em> encountered during these interviews.</p>
+<p>In order to avoid awkwardness, I&rsquo;ll provide IDEAL answers to some of questions, rather than my actual answers at the time.</p>
+<h2 id="un_-bytedance">Un_ ByteDance</h2>
+<h4 id="duration-1-hr">duration: 1 hr</h4>
+<ol>
+<li>Have you ever written codes with vannilla JS?</li>
+</ol>
+<p>Me: Yes.</p>
+<ol>
+<li>How do you perceive the Frameworks used in Frontend develpoing</li>
+</ol>
+<p>Me: React uses components and &hellip;</p>
+<ol>
+<li>Why the frameworks provide better functionality?</li>
+</ol>
+<p>Me: They enable the developers to create frontend with programming thought process.</p>
+<ol>
+<li>
+<p><strong>Virtual DOM</strong> [^1]</p>
+<p>The Interviewer: what functionality does the Virtual DOM meliates?
+Me: &hellip;(didn&rsquo;t know by the time)</p>
+</li>
+<li>
+<p>Please describe the process of a HTTP request.</p>
+<p>Me: (Yapping about the network layers)</p>
+</li>
+<li>
+<p>Have you ever captured packages or seen how a http request was sent?</p>
+<p>Me: We were assigned to use Wireshark in a course &hellip; (???)
+The Interviewer: Wireshark works on the TCP layer. // digresses</p>
+</li>
+<li>
+<p>What&rsquo;s <strong>the difference between a GET and a POST request</strong>? [^2]</p>
+</li>
+</ol>
+<p>Me searching for answers: GET wraps params inside of the URL</p>
+<p>The Interviewer: POST can also do that.</p>
+<p>Me: Yeah&hellip;(speechless)</p>
+<p>The Interviewer: What&rsquo;s the semantic difference between the two?</p>
+<p>Me: GET is used to fetch data, while POST is used to submit data. (I was searching for the answer) GET would be cached but POST would not.</p>
+<p>The Interviewer: Would there be a problem if POST was cached?</p>
+<p>(Me trippin&rsquo; &hellip;)</p>
+<p>Correct Answer:</p>
+<blockquote>
+</blockquote>
+<ol>
+<li><strong>What optimization do we see in HTTP 2.0 over 1.0?</strong> [^3]
+(IDK)
+Correct Answer:</li>
+</ol>
+<blockquote>
+</blockquote>
+<ol>
+<li>How does HTTPS ensures security?
+Me: End to end encryption and keys.
+Correct Answer:</li>
+</ol>
+<blockquote>
+</blockquote>
+<ol>
+<li>What if the key was altered?</li>
+</ol>
+<p>Correct Answer:</p>
+<blockquote>
+</blockquote>
+<hr>
+<p>Moving on to the browser aspect.
+Keywords: <em>Cookie, session</em></p>
+<ol>
+<li>Describe how cookie works.</li>
+</ol>
+<p>Correct Answer:</p>
+<blockquote>
+</blockquote>
+<ol>
+<li>Then what about sessions?</li>
+</ol>
+<p>Correct Answer:</p>
+<blockquote>
+</blockquote>
+<ol>
+<li>Why is cookie less commonly used nowadays?</li>
+</ol>
+<p>Me: to enhance security??</p>
+<ol>
+<li>
+<p>Explicate on the security of cookie.</p>
+</li>
+<li>
+<p>Are you familiar with any other authentication methods?
+Me: Hmm&hellip;
+Correct Answer:</p>
+</li>
+</ol>
+<blockquote>
+</blockquote>
+<hr>
+<p>A practical css  question followed:</p>
+<ol start="16">
+<li>How do you make an element vertically and horizontally align to the center of a div.</li>
+</ol>
+<p>Me: Use align-items: center or justify-content.
+The Interviewer: Is there any other ways?
+<!-- raw HTML omitted -->
+//Trying to make me say use Flex
+<!-- raw HTML omitted -->
+Me: Maybe use Grid?</p>
+<ol>
+<li>What novel features do you think HTML and CSS have?</li>
+</ol>
+<p>(Me trying to figure out what he meant.)
+The Interviewer: It came out in recent years and has great potential.</p>
+<ol>
+<li>What sites do you use to learn Web dev?</li>
+</ol>
+<p>Me: w3school (OMFG&hellip;)
+The Interviewer: Have you ever checked out MDN web doc?
+Me; Yes.
+(Him realizing that I&rsquo;m &ldquo;problem-driven&rdquo; in developing)</p>
+<hr>
+<p>A very specific scenario was provided:</p>
+<ul>
+<li>
+<p>How do you make sure a countdown page was accurate and sync with the server side.
+Me: Implement some synchronizing mechanism.
+The Interviewer: Can you explain further?</p>
+<p>The IDEAL answer:</p>
+<blockquote>
+</blockquote>
+</li>
+</ul>
+<h4 id="coding-test-part">Coding test part</h4>
+<p>He basically provided a simple JS debounce question, which I had no clue back then.</p>
+<h2 id="deux_">Deux_</h2>
+<h4 id="duration-20-min">duration: 20 min</h4>
+<p>This one hits different.
+And I love it.</p>
+<ul>
+<li>The latest React version has been updated to 19. Hooks are available only after v16. Can you describe the usage of the hook <strong>useEffect</strong>?</li>
+<li>When does useEffect performs an action?
+Me: when the dependencies changes.</li>
+<li><strong>Then what if you leave the dependency blank, as an empty array?</strong> [^4]
+Correct Answer:
+<blockquote>
+</blockquote>
+</li>
+<li>What if you don&rsquo;t fill anything there?
+<blockquote>
+<p>Him: If you don&rsquo;t fill the second param, the function would be carried out frequently. If you at least fill an empty array, the hook would take action when the component initializes. There are two stages of a component, Initialization and Updates.</p>
+</blockquote>
+</li>
+<li>Which Hook should you use if you&rsquo;d like to reference a DOM?
+Me: ? // I should have known better at that time.
+Him: To make the value not affected by the component renders.
+Obviously <strong>useRef</strong>&hellip;</li>
+</ul>
+<hr>
+<p>Moving on to ES6 syntax.</p>
+<ul>
+<li>
+<p><strong>Arrow Functions</strong> What are the differences between arrow functions and normal functions?</p>
+<p>Correct Answer:</p>
+<blockquote>
+</blockquote>
+</li>
+<li>
+<p>Why comes the arrow function?</p>
+</li>
+<li>
+<p>How do you listen to events in vanilla JS?
+(It was obvious but I&hellip;)</p>
+</li>
+<li>
+<p>Do you know about <strong>event bubbling</strong> and <strong>event capturing</strong>?
+<a href="https://www.geeksforgeeks.org/what-is-event-bubbling-and-event-capturing-in-javascript/">Geek explaination</a></p>
+</li>
+</ul>
+<h2 id="trois_-dingtalk">Trois_ DingTalk</h2>
+<h4 id="duration-30-min">duration: 30 min</h4>
+<h2 id="quatre_-hyperlink">Quatre_ HyperLink</h2>
+<h3 id="duration-40-min">duration: 40 min</h3>
+<p>This one also went hard with the React Routing&hellip;
+First she asked about my project and then goes deep into it.
+For the sake of practicality, I&rsquo;ll only provide the Ideal answers here.</p>
+<ol>
+<li>How does create Route From Element implement its effect?</li>
+<li>Can you explain the differences between creating Routes using <em>Hash</em> and using <em>History</em>?</li>
+<li>What do you think of the ad/disadvantages when using these routing methods?</li>
+<li>Tell me about the differences between Single page Multiple page Apps.</li>
+<li>Explain JSX.</li>
+<li>So how are JSX converted into HTML?</li>
+<li><strong>Virtual DOM</strong> [^1]</li>
+<li>How does it reduces unneccessary renders? More precisely, how is the diff funtion carried out?</li>
+<li>Why do browsers suggest you use T val when using the .map method?
+Me: (IDK)
+Her: it&rsquo;s about the GUI, you can take notice in console logs next time.</li>
+<li>Do we only use hooks in React or can you also use classComponents?</li>
+<li>Why Hooks can only be used at top level of a component but not in loops?</li>
+<li>What does <strong>ref</strong> do in components?</li>
+<li>How do you create a Timer with useRef?
+// And she actually wanted to ask a debounce question&hellip; omg</li>
+</ol>
+<h2 id="cinq_-hellobike">Cinq_ HelloBike</h2>
+<h3 id="duration-20-min-1">duration: 20 min</h3>
+<p>date: 05-11-2024</p>
+<ol>
+<li>Do you have any cool function in your project?
+Me: no I only did the basics (trying to be honest)</li>
+<li>How is HTTP2.0 better than 10.</li>
+<li><strong>What is the use of passing an empty array as the second dependency of the useEffect Hook?</strong>[^4]</li>
+</ol>
+<h2 id="six_-tencent">Six_ Tencent</h2>
+<h3 id="duration-30-min-1">duration: 30 min</h3>
+<ol>
+<li>
+<p>Do you have any cool function in your project?
+&hellip;</p>
+</li>
+<li>
+<p>How do you start a project then?</p>
+<p>Me: create react app (not knowing what he was trying to ask about)</p>
+</li>
+<li>
+<p>I saw you used vite.</p>
+<p>Ok</p>
+</li>
+<li>
+<p>Did you use ES6 or ES5?</p>
+<p>ES6</p>
+</li>
+<li>
+<p>Where is the code stored?
+( He setting me up&hellip;)</p>
+<p>in browser</p>
+</li>
+<li>
+<p>ES6 cannot run in browser so how do you even do that?</p>
+<p>Emmm</p>
+</li>
+<li>
+<p>So how to convert ES6 to ES5?</p>
+<p>Use tools like Babel</p>
+</li>
+<li>
+<p>Have you used it?</p>
+<p>(Bitch do you even use it yourself&hellip;?)</p>
+</li>
+</ol>
+
+    <h4><a href="http://localhost:1313/BlogMax/">Back to Home</a></h4>
+</div>
+
+
+        </div><footer class="container">
+    <hr class="soften">
+    <p>
+    <a href="https://gitlab.com/maxlefou/hugo.386">hugo.386 theme by Max le Fou</a> | 
+
+&copy; 
+<a href="http://jmf-portfolio.netlify.com" target="_blank">
+    JM Fergeau
+</a>
+<span id="thisyear">2024</span>
+
+    | Example site
+
+
+        | Built on <a href="//gohugo.io" target="_blank">Hugo</a>
+
+</p>
+    <p class="text-center">
+        <a href="https://facebook.com">Facebook</a> 
+        <a href="https://twitter.com">Twitter</a> 
+        <a href="https://linkedin.com">Linkedin</a> 
+        <a href="https://github.com">GitHub</a> 
+        <a href="https://gitlab.com">GitLab</a>
+    </p>
+</footer>
+
+</body><link rel="stylesheet" href="/BlogMax/css/bootstrap.css">
+<link rel="stylesheet" href="/BlogMax/css/bootstrap-responsive.css">
+<link rel="stylesheet" href="/BlogMax/css/style.css">
+
+<script src="/BlogMax/js/jquery.js"></script>
+<script src="/BlogMax/js/bootstrap-386.js"></script>
+<script src="/BlogMax/js/bootstrap-transition.js"></script>
+<script src="/BlogMax/js/bootstrap-alert.js"></script>
+<script src="/BlogMax/js/bootstrap-modal.js"></script>
+<script src="/BlogMax/js/bootstrap-dropdown.js"></script>
+<script src="/BlogMax/js/bootstrap-scrollspy.js"></script>
+<script src="/BlogMax/js/bootstrap-tab.js"></script>
+<script src="/BlogMax/js/bootstrap-tooltip.js"></script>
+<script src="/BlogMax/js/bootstrap-popover.js"></script>
+<script src="/BlogMax/js/bootstrap-button.js"></script>
+<script src="/BlogMax/js/bootstrap-collapse.js"></script>
+<script src="/BlogMax/js/bootstrap-carousel.js"></script>
+<script src="/BlogMax/js/bootstrap-typeahead.js"></script>
+<script src="/BlogMax/js/bootstrap-affix.js"></script>
+<script>
+    _386 = { 
+        fastLoad: false ,
+        onePass: false , 
+        speedFactor: 1 
+    };
+
+    
+    function ThisYear() {
+        document.getElementById('thisyear').innerHTML = new Date().getFullYear();
+    };
+</script>
+</html>
